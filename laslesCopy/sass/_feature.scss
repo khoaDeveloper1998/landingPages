@@ -1,0 +1,29 @@
+.feature {
+  background-color: inherit;
+  padding-bottom: 130px;
+  &-container {
+    display: flex;
+    gap: 0 170px;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    margin-top: 20px;
+  }
+
+  &-desc {
+    margin-bottom: 23px;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    font-size: 14px;
+  }
+}

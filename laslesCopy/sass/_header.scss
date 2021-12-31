@@ -1,0 +1,45 @@
+.header {
+  padding-top: 50px;
+  padding-bottom: 90px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    height: 37px;
+    width: 150px;
+  }
+
+  &-auth {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    text-transform: capitalize;
+  }
+
+  &-signin {
+    font-weight: 500;
+    color: $heading-color;
+    text-transform: capitalize;
+  }
+  &-signup {
+      padding: 13px 45px;
+      border-radius: 100rem;
+      color: $primary-color;
+      display: inline-block;
+      border: 1px solid;
+  }
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+
+  gap: 0 40px;
+  &-link {
+    color: inherit;
+    display: inline-block;
+    font-weight: 400;
+  }
+}
